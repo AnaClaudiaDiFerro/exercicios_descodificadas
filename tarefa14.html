@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript</title>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url(panico.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .animaçãofadeinout {
+            animation: animaçãofadeinout 0.3s linear infinite;
+        }
+
+        @keyframes animaçãofadeinout {
+          
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.2;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+    </style>
+
+<section>
+    <div class="animaçãofadeinout">
+        <img src="panico.jpg" alt="Buuuuu">
+    </div>
+</section>
+  <script src="tarefa14.js"></script>
+</body>
+</html>

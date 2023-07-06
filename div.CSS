@@ -1,0 +1,26 @@
+div {
+  display: inline-block;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+#top-left {
+  background-color: red;
+}
+
+#top-right {
+  background-color: blue;
+}
+
+#bottom-left {
+  background-color: green;
+}
+
+#bottom-right {
+  background-color: yellow;
+}
+
+.dark-border {
+  border-color: #000000;
+}
